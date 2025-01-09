@@ -21,6 +21,7 @@ html,body{
     display: flex;
     align-items: center;
     padding: 5px 5px;
+    margin-bottom: 10x;
 }
 #nav1{
     height: 100%;
@@ -72,4 +73,95 @@ html,body{
 }
 #nav3-iii{
     color: #fff;
+}
+#hero-section{
+    height: calc(100% - 80px);
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    border-radius: 10px;
+}
+#hero-left{
+    height: 100%;
+    width: 52%;
+    background-color: blue;
+    margin: 1.2em;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+#hero-left-top-content{
+    height: 130px;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-left-top-content h1{
+    font-size: 45px;
+}
+#hero-left-center{
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+}#hero-letf-center-left{
+    height: 100%;
+    width: 25%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 5px;
+}
+#hero-left-center-center{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(173, 173, 201);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+#hero-left-center-right{
+    height: 100%;
+    width: 35%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#twitter{
+    font-size: 20px;
+    color: #fff;
+}
+#whatsapp{
+    font-size: 20px;
+    color: #fff;
+}
+#facebook{
+    font-size: 20px;
+    color: #fff;
+}
+#instagram{
+    font-size: 20px;
+    color: #fff;
+}
+#hero-right{
+    height: 100%;
+    width: 48%;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 1.2em;
+}
+#hero-right img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit:cover;
+    border-radius: 10px;
+    
 }
