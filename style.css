@@ -6,7 +6,7 @@
 #main{
     height: 100%;
     width: 100%;
-    background-color: #f7f2f2;
+    background-color: #dbdbdb;
     padding: 35px 30px;
 }
 html,body{
@@ -84,7 +84,7 @@ html,body{
 #hero-left{
     height: 100%;
     width: 52%;
-    background-color: blue;
+    /* background-color: blue; */
     margin: 1.2em;
     border-radius: 10px;
     padding: 10px 10px;
@@ -92,7 +92,8 @@ html,body{
 #hero-left-top-content{
     height: 130px;
     width: 100%;
-    background-color: aquamarine;
+    
+    background-color: #575321;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -104,51 +105,58 @@ html,body{
 #hero-left-center{
     height: 80px;
     width: 100%;
-    background-color: gray;
+    /* background-color: rgb(207, 203, 203); */
     border-radius: 10px;
     margin-top: 15px;
     display: flex;
-}#hero-letf-center-left{
+}#hero-left-center-left{
     height: 100%;
     width: 25%;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content:flex-start;
     padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 #hero-left-center-center{
     height: 100%;
     width: 40%;
-    background-color: rgb(173, 173, 201);
+    /* background-color: rgb(173, 173, 201); */
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 #hero-left-center-right{
     height: 100%;
     width: 35%;
-    background-color: red;
+    background-color: #a57c76fb ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 10px;
+    margin-left: 5px;
 }
 #twitter{
     font-size: 20px;
-    color: #fff;
+    color: #a57c76fb ;
 }
 #whatsapp{
     font-size: 20px;
-    color: #fff;
+    color: #a57c76fb ;
 }
 #facebook{
     font-size: 20px;
-    color: #fff;
+    color: #a57c76fb ;
 }
 #instagram{
     font-size: 20px;
-    color: #fff;
+    color: #a57c76fb ;
 }
 #hero-right{
     height: 100%;
@@ -157,6 +165,15 @@ html,body{
     border-radius: 10px;
     margin: 1.2em;
 }
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #hero-right img{
     width: 100%;
     height: 100%;
@@ -164,4 +181,37 @@ html,body{
     object-fit:cover;
     border-radius: 10px;
     
+}
+#hero-left-bottom{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.hero-left-bottom-one{
+    background-color: #dcaf92;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero-left-bottom-two{
+    background-color: #575321;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero-left-bottom-three{
+    background-color: #a57c76fb;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
